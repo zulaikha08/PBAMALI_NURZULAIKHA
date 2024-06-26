@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<head>
+    <style>
+        h1 {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        body {
+            background-color: lavender;
+        }
+        p{
+            font-size: medium;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+         }
+         table,th,td{
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        .borang {
+            border: 1px solid black;
+            border-collapse: collapse;
+            width: 60%;
+        }
+        .kaki {
+        text-align: center;
+        padding: 5px;
+        background-color:plum;
+        color: white;
+        width: 60%;
+       }
+    </style>
+    <title>FLORIST.CO</title>
+</head>
+<body>
+    <center>
+   <img src="Florist.co.jpg" width="70%" height="50%">
+   <h1>FLORIST BOUQUET</h1>
+   <table width="60%" >
+    <th>       
+        <p>SET A</p>
+        <img src="blue.bouquet.jpg" width="50%"><br>
+        <form>
+            <input type="checkbox" id="flower" name="flower">RM30.00<br>
+        </form>
+    </th>
+        <th>
+            <p>SET B</p>
+            <img src="pink.bouquet.jpg" width="40%">
+            <form>
+                <input type="checkbox" id="flower" name="flower">RM35.00<br>
+            </form>
+        </th>
+        <th>
+            <p>SET C</p>
+            <img src="pink_rose.jpg" width="50%">
+            <form>
+                <input type="checkbox" id="flower" name="flower">RM45.00<br>
+            </form>
+        </th>
+        <tr>
+            <th>
+                <p>KIDS SET</p>
+                 <img src="kids_bouquet.jpg" width="50%">
+                 <form>
+                    <input type="checkbox" id="flower" name="flower">RM40.00<br>
+                </form>
+            </th>
+            <th>
+                <p>BIRTHDAY SET</p>
+                <img src="baby_breath.jpg" width="30%">
+                <form>
+                    <input type="checkbox" id="flower" name="flower">RM35.00<br>
+                </form>
+           </th>
+           <th>
+            <p>GRADUATION SET</p>
+            <img src="graduation_bouquet.jpg" width="50%">
+            <form>
+                <input type="checkbox" id="flower" name="flower">RM50.00<br>
+            </form>
+            </th>
+        </table>
+        <!--CONTENT-->
+        <div class="borang">
+                 <table width="60%">
+                    <form>
+                    <tr>
+                        <td>Name:</td>
+                        <td> <input type="Nama" id="nama" name="nama"></td>
+                    </tr>
+                    <tr>
+                        <td>Phone Number:</td>
+                        <td><input type="number" id="number" name="number"></td>
+                    </tr>
+                    <tr>
+                        <td>Email : </td>
+                        <td> <input type="email" id="email" name="email"></td>
+                    </tr>
+                    <tr>
+                        <td>SET:</td>
+                        <td><select name="select"
+                            <option value="select">Select</option>
+                            <option value="seta">SET A</option>
+                            <option value="setb">SET B</option>
+                            <option value="setc">SET C</option>
+                            <option value="kids">KIDS SET</option>
+                            <option value="birthday">BIRTHDAY SET</option>
+                            <option value="Graduation">GRADUATION SET</option>
+                         </select></td>
+                    </tr>
+                </table>
+                <input type="submit" value="SUBMIT">
+                <input type="reset" value="RESET">
+            </form>
+          </div>
+        </div> 
+       <!--FOOTER-->
+       <div class="kaki">
+        <font>Copyright &copy; All Rights Reserved 2021, Florist.co</font>
+    </div>
+</body>
+</head>
